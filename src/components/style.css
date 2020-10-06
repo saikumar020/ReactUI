@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #478CCC !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,span {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html, .App, #root, .wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+    font-weight: bold;
+    opacity: 0.7;
+    color: #0a0a0a;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+}
+.label1{
+    font-weight: normal;
+}
+.button1{
+    margin-top: 25px;
+    background-color: #478CCC;
+}
+
+.checkbox1{
+    margin-top:20px;
+}
+.navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top:100px;
+}
+
+.form-wrapper {
+  width: 400px;
+  margin: auto;
+  height: auto;
+  background: #f8f7f7;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.wrapper h3 {
+  text-align: left;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #f0eaea;
+  margin: 0;
+}
+
+.forgot-password a {
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 1;
+    text-decoration: none;
+}
